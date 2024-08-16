@@ -1,5 +1,6 @@
 #FROM rstudio/rstudio-package-manager:bionic-2023.04.0
 FROM rstudio/rstudio-package-manager:ubuntu2204
+LABEL maintainer="Lisa Anders <lisa.anders@posit.co"
 
 # Copy our configuration over the default install configuration
 # COPY rstudio-pm.gcfg /etc/rstudio-pm/rstudio-pm.gcfg
